@@ -2745,6 +2745,15 @@
         uid: az_acr_scope-map
         displayName: az acr scope-map
         items: []
+      - name: supply-chain
+        items:
+        - name: Commands
+          uid: az_acr_supply-chain
+          displayName: az acr supply-chain
+        - name: workflow
+          uid: az_acr_supply-chain_workflow
+          displayName: az acr supply-chain workflow
+          items: []
       - name: task
         items:
         - name: Commands
@@ -6185,17 +6194,27 @@
             uid: az_iot_ops_broker
             displayName: az iot ops broker
           - name: authn
-            uid: az_iot_ops_broker_authn
-            displayName: az iot ops broker authn
-            items: []
+            items:
+            - name: Commands
+              uid: az_iot_ops_broker_authn
+              displayName: az iot ops broker authn
+            - name: method
+              uid: az_iot_ops_broker_authn_method
+              displayName: az iot ops broker authn method
+              items: []
           - name: authz
             uid: az_iot_ops_broker_authz
             displayName: az iot ops broker authz
             items: []
           - name: listener
-            uid: az_iot_ops_broker_listener
-            displayName: az iot ops broker listener
-            items: []
+            items:
+            - name: Commands
+              uid: az_iot_ops_broker_listener
+              displayName: az iot ops broker listener
+            - name: port
+              uid: az_iot_ops_broker_listener_port
+              displayName: az iot ops broker listener port
+              items: []
         - name: connector
           items:
           - name: Commands
